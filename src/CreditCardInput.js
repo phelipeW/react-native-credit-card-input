@@ -21,6 +21,7 @@ const s = StyleSheet.create({
   },
   form: {
     marginTop: 20,
+    marginLeft: -60,
   },
   inputContainer: {
     marginLeft: 20,
@@ -161,7 +162,7 @@ export default class CreditCardInput extends Component {
           expiry={expiry}
           cvc={cvc} />
         <ScrollView ref="Form"
-          horizontal
+          // horizontal
           keyboardShouldPersistTaps="always"
           scrollEnabled={allowScroll}
           showsHorizontalScrollIndicator={false}
